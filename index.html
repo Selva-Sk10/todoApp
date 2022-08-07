@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- My Style -->
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <h1>Todo App</h1>
+            <p class="task-btn">Add New Task Here</p>
+            <h2>Tasks</h2>
+            <ul></ul>
+        </div>
+    </div>
+    <form>
+        <h2>Add New Task</h2>
+        <div class="task">
+            <label>Task Title</label>
+            <input type="text">
+        </div>
+        <div class="date">
+            <label>Due Date</label>
+            <input type="date">
+        </div>
+        <div class="desc">
+            <label>Description</label>
+            <textarea cols="30" rows="10"></textarea>
+        </div>
+        <div class="btns">
+            <button>Clear</button>
+            <span>
+                <button>Close</button>
+                <button>Add</button>
+                <button>Update</button>
+            </span>
+        </div>
+    </form>
+    
+    <!-- My Script -->
+    <script src="./assets/js/app.js"></script>
+</body>
+</html>
